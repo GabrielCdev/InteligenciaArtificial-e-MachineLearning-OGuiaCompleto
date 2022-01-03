@@ -1,0 +1,5 @@
+> Sistemas Especialistas:
+  - Uma das áreas mais antigas;
+  - A IA começou com o desenvolvimento de Sistemas Especialistas;
+  - Ideia:
+    = Coletar todo o conhecimento que um especialista humano possui em uma determinada área, montar uma base de dados, de forma que o sistema seja capaz de dar respostas utilizando esses dados fornecidos pelo especialista humano.
