@@ -1,5 +1,52 @@
 > Sistemas Especialistas:
-  - Uma das áreas mais antigas;
-  - A IA começou com o desenvolvimento de Sistemas Especialistas;
+  - Uma das áreas mais antigas.
+  - A IA começou com o desenvolvimento de Sistemas Especialistas.
   - Ideia:
     = Coletar todo o conhecimento que um especialista humano possui em uma determinada área, montar uma base de dados, de forma que o sistema seja capaz de dar respostas utilizando esses dados fornecidos pelo especialista humano.
+  - Não é mais uma área tão utilizada pois existem técnicas mais avançadas.
+  
+> Algoritmos de Busca:
+  - Há dois pontos, um inicial e um final, e é necessário um algoritmo para traçar a melhor rota.
+  - Ex.: GPS (Cidade de ORIGEM e de DESTINO).
+  
+> Algoritmos de Otimização:
+  - Encontrar formas de maximizar lucros e minimizar despezas, por exemplo.
+  
+> Raciocínio Baseado em Casos:
+  - Não é mais tão utilizado assim.
+  - Ex.: Área jurídica: há vários casos passados, uma pessoa comete um novo crime e há a análise dos casos anteriores para que seja possível tomar uma decisão no caso atual. Ou seja, armazena os casos anteriores numa base de dados de casos e quando for necessário recuperar os casos similares, os algoritmos específicos retornarão os mais parecidos.
+  
+> Lógica Difusa (Fuzzy):
+  - Ex.: Utilizado para controle de equipamentos, se um equipamento precisa ser desligado automaticamente caso ele esteja aquecendo demais.
+  
+> Machine Learning:
+  - Área mais relevante dentro da IA atualmente.
+  - A maior parte das aplicações modernas são feitas utilizando essas técnicas.
+  - São algoritmos que aprendem por meio de bases de dados.
+
+> Deep Learning (dentro da área de Machine Learning):
+  - Utilização de Redes Neurais para resolução de problemas complexos.
+  - A maioria das aplicações mais modernas são feitas utilizando técnicas de Deep Learning.
+  - Ex.: Detecção de Objetos, Carros Autônomos, Descobertas de Vacinas/Novos Medicamentos etc.
+  
+> Ciência de Dados:
+  - Profissão: Cientista de Dados.
+  - Utiliza algoritmos de Machine Learning para trazer insights para as empresas, ajudando na tomada de decisão.
+  
+> Processamento de Linguagem Natural:
+  - A ideia é trabalhar com textos ou, também, com falas.
+  - Ex.: Chatbots - robôs de conversas.
+  
+> Mineração de Dados:
+  - Envolve a exploração dos dados.
+  - Geralmente utilizam técnicas de Machine Learning para analisar bases de dados.
+  
+> Visão Computacional:
+  - Colocar a visão em computadores, como se fosse a visão humana.
+  - Ex.: Detecção de faces, reconhecimento facial, criação automática de imagens (ex.: Deepfake - Criação de faces de pessoas que nunca existiram).
+
+> Sistemas Multiagente:
+  - Vários agentes que se comunicam para resolver um determinado problema.
+  
+> Computação Afetiva:
+  - Simular emoções em robôs/agentes ou para que os robôs/agentes identifiquem uma emoção (baseado nas expressões, por exemplo).
