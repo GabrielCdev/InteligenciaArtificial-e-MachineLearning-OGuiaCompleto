@@ -1,0 +1,48 @@
+> TEORIA SOBRE BUSCAS <
+
+> Componentes de um problema
+	1. Estado Inicial (ponto de partida)
+	2. Estado Final (objetivo) (onde queremos chegar)
+	3. Espaço de estados (todas as soluções possíveis entre o estado inicial e o final)
+	4. Ações para passar de um estado para o outro
+	5. Solução (caminho que leva do estado inicial ao estado final)
+	
+> Problema 1: Ir de Arad até Bucharest (Inteligência Artificial - Stuart Russel e Peter Norvig)
+> Problema 2: Jogo das Peças (8-Puzzle)
+> Problema 3: Jogo da Velha
+
+
+> HEURÍSTICAS <
+
+	- Para escolher a melhor jogada no xadrez, existem 10^56 possibilidades.
+	- Esse número é superior ao número de elétrons no universo, ou seja, um computador não conseguirá processar uma quantidade tão grande de informações.
+	- Além disso, com algoritmos de busca, dificilmente, será possível traçar todas as possibilidades possíveis, pois o número de possibilidades é muito grande e para diminuir o espaço de estados é necessário o uso de heurísticas.
+	- Heurísticas = maneiras para resolver um problema, ou seja, problemas diferentes possuem heurísticas diferentes. Elas (cálculos matemáticos) indicam as escolhas que a máquina deve priorizar, sem precisar checar todas as possibilidades possíveis.
+	- Técnicas de ajuda a descoberta (dos melhores caminhos).
+
+
+> VETORES ORDENADOS <
+
+	- Os dados estão organizados na ordem ascendente de valores-chave, ou seja, com o menor valor no índice 0 e cada célula mantendo um vlaor maior que a célula abaixo.
+	- Vantagem: Agiliza os tempos de pesquisa, seja ela linear quanto na pesquisa binária.
+	- Operações possíveis:
+		Inserção:
+			Para inclusão de valores é necessário manter a ordem. Essa ordem é vista a partir de uma pesquisa que verificará em qual posição aquele vetor será inserido (x < y ?).
+			Pesquisar uma média de n/2 elementos (pesquisa linear), no pior caso: N (última posição = todos os elementos)
+			Mover os elementos restantes (n/2 passos), no pior caso: N (todos os elementos)
+			Big O - O(2n) = O(n)
+				  
+		Pesquisa Linear:
+			A pesquisa termina quando o primeiro item maior que o valor de pesquisa é atingido.
+			Como o vetor está ordenado, o algoritmo sabe que não há necessidade de procurar mais.
+			Pior caso: Elemento fora do vetor ou na última posição (percore o vetor inteiro).
+			Big O = O(n)
+			Ex.: https://www.cs.usfca.edu/~galles/visualization/Algorithms.html -> https://www.cs.usfca.edu/~galles/visualization/Search.html
+			
+		Exclusão:
+			Não tem muita diferença quanto ao algoritmo anterior.
+			O algoritmo pode terminar na metade do caminho se não encontrar o item, pois é necessário, inicialmente, fazer uma pesquisa se o elemento está no vetor para encontrar uma posição.
+			Pesquisa uma média de n/2 elementos (pesquisa linear), no pior caso: N (última posição = todos os elementos)
+			Mover os elementos restantes (n/2 passos), no pior caso: N (todos os elementos)
+			Big O - O(2n) = O(n)
+		
