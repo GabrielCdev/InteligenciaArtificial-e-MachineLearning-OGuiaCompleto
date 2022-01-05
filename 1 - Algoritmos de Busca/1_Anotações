@@ -46,3 +46,9 @@
 			Mover os elementos restantes (n/2 passos), no pior caso: N (todos os elementos)
 			Big O - O(2n) = O(n)
 		
+		
+> BUSCA GULOSA (GRAFO) <
+
+	- Utiliza o conceito de heurísticas.
+	- Escolhe o menor caminho (melhor escolha).
+	- Expande o nó/vértice que é mais próximo ao objetivo (possui o melhor caminho) em sequência, até atingir o objetivo.
